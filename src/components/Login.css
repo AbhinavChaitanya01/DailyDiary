@@ -1,0 +1,109 @@
+.main-login-div{
+    min-height: 100vh;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.tvIl9dd4kkIYddxjGi8RkAHaGs&pid=Api&P=0&w=300&h=300);
+    overflow: hidden;
+}
+
+.login-headertext{
+    text-align: center;
+    color:#F2AE30;
+    font-family: Playfair Display;
+    padding-top:10px;
+    font-size: xx-large;
+    padding-bottom: 0;
+}
+.login-page-welcome{
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 50px;
+    color: #F2C12E;
+}
+.basic-intro{
+    text-align: center;
+    font-family: Sacramento;
+    font-size: 35px;
+    /* font-weight: b; */
+    color: #F2CB05;
+    margin-bottom: 0px;
+}
+/* .loginTextField{
+    margin-bottom: 2rem !important;
+} */
+.sub-box{
+    position: relative;
+    width: 40vw;
+    padding: 5px;
+    top: 5%;
+    left:30%;
+    border-radius: 16px;
+    margin-bottom: 50px;
+}
+.login-info{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+}
+.normal-submit-btn{
+    background-color:#F28157;
+    /* color: #fff; */
+    font-weight: 700;
+    font-family: Handlee;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.normal-submit-btn:hover{
+    background-color:#D96941;
+    color: #fff;
+}
+.auth-submit-btn{
+    background-color: #F2C12E;
+    font-weight: 700;
+    font-family: Handlee;
+    font-size: 1rem;
+    width: 100%
+}
+.auth-submit-btn:hover{
+    color: #fff;
+    background-color: #F2AE30;
+}
+@media screen and (min-width: 1024px) {
+    
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 550px) 
+and (max-device-width: 1024px) {
+    
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 550px) and (min-device-width:359px) 
+and (orientation: portrait) {
+    .sub-box{
+        width: 100%;
+        /* position: absolute; */
+        left:0;
+    }
+    .login-page-welcome{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-device-width: 358px)
+and (orientation: portrait) {
+    .sub-box{
+        width: 100%;
+        /* position: absolute; */
+        left:0;
+    }
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) 
+and (orientation: landscape) {
+    
+}

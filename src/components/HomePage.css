@@ -1,0 +1,85 @@
+.date-box{
+    position: relative;
+    width: 33vw;
+    top: 10vh;
+    left:33%;
+    border-radius: 20px;
+}
+.today-post-box{
+    position: relative;
+    width: 50vw;
+    left: 25%;
+    top: 2vw;
+    margin: 10px;
+}
+.inner-today-post-info{
+    display: flex;
+}
+.home-icon-div{
+    padding-top: 20px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 550px) 
+and (max-device-width: 1024px) {
+    .date-box{
+        width: 60vw;
+        /* position: absolute; */
+        left:20%;
+    }
+    .today-post-box{
+        width: 80vw;
+        left:10%;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 550px) and (min-device-width:359px) 
+and (orientation: portrait) {
+    .date-box{
+        width: 100%;
+        /* position: absolute; */
+        left:0;
+    }
+    .today-post-box{
+        width: 100%;
+        left:0;
+        margin: 0;
+        text-align: center;
+    }
+    .inner-today-post-info{
+        display: inline;
+        text-align: center;
+    }
+}
+
+@media screen and (max-device-width: 358px)
+and (orientation: portrait) {
+    .date-box{
+        width: 100%;
+        left:0;
+    }
+    .today-post-box{
+        width: 100%;
+        left:0;
+        margin: 0;
+        text-align: center;
+    }
+    .inner-today-post-info{
+        display: inline;
+        text-align: center;
+    }
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) 
+and (orientation: landscape) {
+    
+}
